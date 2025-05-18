@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: background-color 0.3s;
+}
+.container {
+  display: flex;
+  gap: 10px;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.box:hover {
+  transform: scale(1.1);
+}
